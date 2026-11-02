@@ -1,0 +1,19 @@
+{
+  "output_dir": "./资料库",
+  "state_dir": "./运行状态",
+  "exchanges": [
+    "sse",
+    "szse",
+    "bse"
+  ],
+  "page_size": 50,
+  "request_interval_seconds": 2.5,
+  "jitter_seconds": 0.75,
+  "connect_timeout_seconds": 10,
+  "request_timeout_seconds": 180,
+  "max_attempts": 3,
+  "max_file_size_mb": 500,
+  "recheck_days": 7,
+  "recent_overlap_days": 2,
+  "watch_interval_hours": 24
+}
